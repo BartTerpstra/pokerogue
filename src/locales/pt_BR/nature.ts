@@ -1,14 +1,14 @@
-import { SimpleTranslationEntries } from "#app/plugins/i18n";
+import { SimpleTranslationEntries } from "#app/interfaces/locales";
 
 export const nature: SimpleTranslationEntries = {
   "Hardy": "Destemida",
   "Lonely": "Solitária",
   "Brave": "Valente",
-  "Adamant": "Rígida",
+  "Adamant": "Adamante",
   "Naughty": "Teimosa",
   "Bold": "Corajosa",
   "Docile": "Dócil",
-  "Relaxed": "Descontraída",
+  "Relaxed": "Relaxada",
   "Impish": "Inquieta",
   "Lax": "Relaxada",
   "Timid": "Tímida",
@@ -20,7 +20,7 @@ export const nature: SimpleTranslationEntries = {
   "Mild": "Mansa",
   "Quiet": "Quieta",
   "Bashful": "Atrapalhada",
-  "Rash": "Imprudente",
+  "Rash": "Ousada",
   "Calm": "Calma",
   "Gentle": "Gentil",
   "Sassy": "Atrevida",
