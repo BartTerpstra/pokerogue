@@ -2541,6 +2541,7 @@ export default abstract class Pokemon extends Phaser.GameObjects.Container {
 
     if (effect !== StatusEffect.FAINT) {
       this.scene.triggerPokemonFormChange(this, SpeciesFormChangeStatusEffectTrigger, true);
+      this.scene.triggerPokemonFormChange(this, SpeciesFormChangeStatusEffectTrigger, true);
     }
     applyPostSetStatusAbAttrs(PostSetStatusAbAttr, this, effect, sourcePokemon);
 
